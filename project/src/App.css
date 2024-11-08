@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #181818; /* Dark background */
+  color: #f4f4f4; /* Light text color */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #005f73; /* Dark blue header */
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #b3e3e3; /* Lighter blue on hover */
+}
+
+section {
+  padding: 40px 20px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #212121; /* Section background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for sections */
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.about .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  padding: 20px;
+  border-radius: 8px;
+  background-color:  #005f73; /* Card background */
+  transition: background-color 0.3s;
+}
+
+.project-card:hover {
+  background-color: #3a2872d8; /* Lighter on hover */
+}
+
+.project-card a {
+  color: #005f73; /* Dark blue link */
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  color: #b3e3e3; /* Lighter blue on hover */
+}
+.skills {
+  background-color: #212121;
+  padding: 50px;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  background-color:#005f73; /* Dark blue for skills */
+  color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #444; /* Darker border */
+  border-radius: 5px;
+  background-color:#212121; /* Input background */
+  color: #f4f4f4; /* Input text color */
+}
+
+.contact button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #005f73; /* Dark blue button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact button:hover {
+  background-color: #007b7e; /* Darker blue on hover */
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #005f73; /* Dark blue footer */
+  color: rgb(19, 28, 112);
+}
+
+
+/* Education Section */
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  background-color: #005f73;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Experience Section */
+.experience-item {
+  background-color: #303030;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.experience-item h3 {
+  color: #f4f4f4;
+  margin-bottom: 5px;
+}
+
+.experience-item span {
+  color: #b3e3e3;
+  font-size: 0.9em;
+}
+
+/* Hobbies Section */
+.hobbies p {
+  font-size: 1.2em;
+  color: #f4f4f4;
+  background-color: #212121;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Soft Skills Section */
+
+.soft-skills {
+  background-color: #212121;
+  padding: 50px;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.soft-skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.soft-skills li {
+  background-color: #005f73;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
